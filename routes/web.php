@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\CustomerMessageController;
+use App\Http\Controllers\Backend\CustomerMessageController;
 use Illuminate\Support\Facades\Route;
 
 /*

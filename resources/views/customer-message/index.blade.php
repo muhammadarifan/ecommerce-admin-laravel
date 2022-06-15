@@ -19,8 +19,8 @@
                 </div>
             </div>
         @endif
-        @foreach ($customerMessages as $key => $customerMessage)
-            <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="flex flex-col mx-auto gap-y-3 sm:px-6 lg:px-8 max-w-7xl">
+            @foreach ($customerMessages as $key => $customerMessage)
                 <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
                     <div class="p-6 bg-white border-b border-gray-200">
                         <div class="flex items-start justify-between">
@@ -94,8 +94,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        @endforeach
+            @endforeach
+        </div>
     </div>
 
     <x-slot name="script">
